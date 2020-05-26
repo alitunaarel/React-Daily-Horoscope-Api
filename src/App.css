@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+ 
+
+.grid {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr ;
+  grid-gap: 5px;
+}
+.sign{
+  height: 70px;
+  width: 120px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
